@@ -40,7 +40,8 @@ nav ul li .links_navbar:hover::before{
   content: "";
   position: absolute;
   height: 3px;
-  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
   background-color: var(--links_navbar);
   width: 30%;
