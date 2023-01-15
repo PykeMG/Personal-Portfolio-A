@@ -19,7 +19,7 @@ body{
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0;
 }
 section{
   height: calc(100vh - 180px);
