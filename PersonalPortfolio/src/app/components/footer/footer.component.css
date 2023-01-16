@@ -36,9 +36,14 @@
   background: var(--links_navbar);
   color: var(--links_social);
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   display: block;
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
+  font-size: 1.2rem;
+  transition: .3s ease-in-out;
+}
+.section_footer ul li .social_links:hover{
+  filter: opacity(.7);
 }
