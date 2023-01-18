@@ -1,6 +1,7 @@
 nav{
   height: 90px;
   background: none;
+  padding: 0 3rem;
 }
 nav ul{
   display: flex;

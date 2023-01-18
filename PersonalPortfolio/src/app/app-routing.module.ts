@@ -10,34 +10,41 @@ const routes: Routes = [
     path: 'cover',
     component: CoverComponent,
     title: 'Cover',
+    data: {animationState: 'one'}
   },
   {
     path: 'about',
     component: AboutComponent,
     title: 'About Me',
+    data: {animationState: 'two'}
   },
   {
     path: 'education',
     component: EducationComponent,
     title: 'Education',
+    data: {animationState: 'three'}
   },
   {
     path: 'experience',
     component: ExperienceComponent,
     title: 'Work Experience',
+    data: {animationState: 'four'}
   },
   {
     path: 'work',
     component: WorkComponent,
     title: 'My Work',
+    data: {animationState: 'five'}
   },
   {
     path: '**',
-    redirectTo: '/cover', pathMatch: 'full'
+    redirectTo: '/cover', pathMatch: 'full',
+    data: {animationState: 'one'}
   },
   {
     path: '',
     component: CoverComponent,
+    data: {animationState: 'one'}
   }
   // ,
   // {
