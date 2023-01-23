@@ -8,7 +8,5 @@ section .cover{
 
 section .cover h2{
   margin: 0;
-  color: var(--links_navbar);
   text-transform: uppercase;
-  font-size: 4rem;
 }

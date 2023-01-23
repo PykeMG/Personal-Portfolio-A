@@ -28,3 +28,15 @@ section{
 .main{
   position: relative;
 }
+h2, h1, h3, p{
+  color: var(--links_navbar);
+}
+h2{
+  font-size: 4rem;
+}
+h1{
+  font-size: 2rem;
+}
+h3{
+  font: 1rem;
+}

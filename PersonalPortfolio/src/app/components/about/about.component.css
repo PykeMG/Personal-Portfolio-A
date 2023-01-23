@@ -22,11 +22,7 @@
   width: 50%;
   padding: 0 3rem;
 }
-.about .description h2, p{
-  color: var(--links_navbar);
-}
 .about .description h2{
-  font-size: 4rem;
   text-transform: uppercase;
 }
 .about .description p{
